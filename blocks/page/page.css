@@ -2,7 +2,10 @@
   max-width: 1280;
   margin: 0 auto;
   font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  color: white;
   border: 1px solid red;
 }
