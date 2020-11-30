@@ -22,6 +22,7 @@
 @media screen and (max-width: 320px) {
   .lead__caption {
     transform: translate(16px, 0px);
-    letter-spacing: 0.12em;
+    margin-top: 3px;
+    /* letter-spacing: 0.12em; */
   }
 }
