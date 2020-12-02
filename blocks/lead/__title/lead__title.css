@@ -9,12 +9,17 @@
 
 @media screen and (max-width: 768px) {
   .lead__title {
-    width: calc(100% - 48px);
-    font-size: min(96px, 14vw);
+    width: calc(100vw - 48px);
+    font-size: min(96px, 13vw);
     line-height: min(100px, 1.05em);
   }
 }
 
+@media screen and (max-width: 640px) {
+  .lead__title {
+    font-size: min(96px, 12vw);
+  }
+}
 
 @media screen and (max-width: 320px) {
   .lead__title {
