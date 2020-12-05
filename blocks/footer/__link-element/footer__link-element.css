@@ -1,0 +1,17 @@
+.footer__link-element {
+  margin-right: 18px;
+}
+
+.footer__link-element:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .footer__link-element {
+    margin-bottom: 32px;
+    margin-right: 0;
+  }
+  .footer__link-element:last-child {
+    margin-bottom: 48px;
+  }
+}
