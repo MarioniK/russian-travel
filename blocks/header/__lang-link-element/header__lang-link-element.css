@@ -5,7 +5,3 @@
 .header__lang-link-element:last-child {
   margin-right: 0;
 }
-
-.header__lang-link-element:first-child {
-  border-bottom: 1px solid white;
-}
